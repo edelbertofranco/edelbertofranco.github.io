@@ -1,0 +1,87 @@
+:root{
+  --bg:#ffffff; --surface:#f6f7f9; --text:#1c2230; --muted:#5b6475; --line:#e3e6ec;
+  --accent:#1f4e8c; --accent-soft:#e8eef7;
+  --maxw:980px;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#11151c; --surface:#181d26; --text:#e6e9ef; --muted:#a1a9b8; --line:#2a313d;
+         --accent:#7fa8e0; --accent-soft:#1c2636; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:16px/1.6 "Source Sans 3",-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+/* header / nav */
+header.site{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:10}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;flex-wrap:wrap}
+.brand{font-weight:700;color:var(--text);font-size:1.05rem}
+.brand:hover{text-decoration:none}
+nav ul{list-style:none;display:flex;gap:4px;margin:0;padding:0;flex-wrap:wrap}
+nav a{display:block;padding:6px 10px;border-radius:6px;color:var(--muted);font-size:.95rem}
+nav a:hover{background:var(--surface);text-decoration:none;color:var(--text)}
+nav a.active{color:var(--accent);background:var(--accent-soft);font-weight:600}
+
+/* hero */
+.hero{display:grid;grid-template-columns:180px 1fr;gap:32px;align-items:center;padding:44px 0 28px}
+.photo{width:180px;height:180px;border-radius:50%;object-fit:cover;border:1px solid var(--line);background:var(--surface)}
+.photo-fallback{width:180px;height:180px;border-radius:50%;background:var(--accent-soft);color:var(--accent);
+  display:flex;align-items:center;justify-content:center;font-size:3rem;font-weight:700}
+h1{font-size:2rem;line-height:1.2;margin:0 0 6px}
+.role{color:var(--muted);margin:0 0 14px}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.links a{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:.9rem;color:var(--text)}
+.links a:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+
+/* sections */
+main{padding-bottom:48px}
+section{padding:22px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+h2{font-size:1.3rem;margin:0 0 14px}
+h3{font-size:1.05rem;margin:18px 0 8px}
+p{margin:0 0 12px}
+.muted{color:var(--muted)}
+.small{font-size:.9rem}
+.page-title{padding:36px 0 8px}
+.page-title h1{margin-bottom:4px}
+
+.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.tags li{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 12px;font-size:.95rem}
+
+ul.clean{list-style:none;padding:0;margin:0}
+ul.clean li{padding:8px 0;border-bottom:1px solid var(--line)}
+ul.clean li:last-child{border-bottom:0}
+
+.news li{display:grid;grid-template-columns:90px 1fr;gap:12px}
+.news .date{color:var(--muted);font-variant-numeric:tabular-nums}
+
+.pub .title{font-weight:600}
+.pub .venue{font-style:italic}
+
+.timeline li{display:grid;grid-template-columns:110px 1fr;gap:12px}
+.timeline .year{color:var(--muted);font-weight:600;font-variant-numeric:tabular-nums}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.card h3{margin-top:0}
+
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:.85rem;text-transform:uppercase;letter-spacing:.03em}
+.table-scroll{overflow-x:auto}
+
+.badge{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:600;margin-left:6px}
+
+footer{border-top:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media (max-width:720px){
+  .hero{grid-template-columns:1fr;text-align:left;gap:18px;padding-top:28px}
+  .photo,.photo-fallback{width:120px;height:120px;font-size:2rem}
+  .grid2{grid-template-columns:1fr}
+  .news li,.timeline li{grid-template-columns:1fr;gap:2px}
+  h1{font-size:1.6rem}
+}
