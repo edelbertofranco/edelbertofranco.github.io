@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="O-RAN and 5G/6G"><circle cx="100" cy="100" r="100" fill="#e8eef7"/>
+<g fill="none" stroke="#1f4e8c" stroke-width="5" stroke-linecap="round"><path d="M100 70 L78 160 M100 70 L122 160 M86 128 H114 M82 145 H118"/>
+<path d="M78 52 a30 30 0 0 0 0 36" stroke="#2a78d6"/><path d="M122 52 a30 30 0 0 1 0 36" stroke="#2a78d6"/><path d="M64 40 a48 48 0 0 0 0 60" stroke="#7fa8e0"/><path d="M136 40 a48 48 0 0 1 0 60" stroke="#7fa8e0"/></g>
+<circle cx="100" cy="70" r="9" fill="#eb6834"/>
+<g font-family="Arial,sans-serif" font-weight="700" font-size="13" fill="#fff"><rect x="26" y="150" width="40" height="22" rx="5" fill="#1baf7a"/><text x="46" y="165" text-anchor="middle">xApp</text><rect x="134" y="150" width="40" height="22" rx="5" fill="#eb6834"/><text x="154" y="165" text-anchor="middle">RIC</text></g></svg>

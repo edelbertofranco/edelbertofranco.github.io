@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Wi-Fi sensing and indoor localization"><circle cx="100" cy="100" r="100" fill="#e8eef7"/>
+<g fill="none" stroke-linecap="round" stroke-width="7"><path d="M52 92a68 68 0 0 1 96 0" stroke="#7fa8e0"/><path d="M68 108a45 45 0 0 1 64 0" stroke="#2a78d6"/><path d="M84 124a22 22 0 0 1 32 0" stroke="#1f4e8c"/></g>
+<circle cx="100" cy="138" r="7" fill="#1f4e8c"/>
+<path d="M150 112c-12 0-21 9-21 21 0 16 21 37 21 37s21-21 21-37c0-12-9-21-21-21z" fill="#eb6834"/><circle cx="150" cy="133" r="8" fill="#fff"/>
+<path d="M40 150c10-10 20 10 30 0s20 10 30 0" fill="none" stroke="#1baf7a" stroke-width="4" stroke-linecap="round"/></svg>

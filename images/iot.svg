@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="IoT and LoRa networks"><circle cx="100" cy="100" r="100" fill="#e8eef7"/>
+<g stroke="#7fa8e0" stroke-width="3" stroke-dasharray="6 5"><path d="M100 100L48 58M100 100L156 60M100 100L44 140M100 100L152 146M100 100L100 36"/></g>
+<rect x="80" y="80" width="40" height="40" rx="8" fill="#1f4e8c"/><path d="M92 92h16v16H92z" fill="#e8eef7"/>
+<g stroke="#fff" stroke-width="3"><circle cx="48" cy="58" r="13" fill="#1baf7a"/><circle cx="156" cy="60" r="13" fill="#2a78d6"/><circle cx="44" cy="140" r="13" fill="#eda100"/><circle cx="152" cy="146" r="13" fill="#eb6834"/><circle cx="100" cy="36" r="13" fill="#6250d6"/></g></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Identity and access management"><circle cx="100" cy="100" r="100" fill="#e8eef7"/>
+<rect x="38" y="52" width="124" height="86" rx="12" fill="#fff" stroke="#1f4e8c" stroke-width="5"/>
+<circle cx="74" cy="88" r="15" fill="#2a78d6"/><path d="M50 124a24 18 0 0 1 48 0z" fill="#2a78d6"/>
+<g stroke="#9aa4b5" stroke-width="5" stroke-linecap="round"><path d="M110 82h36M110 98h28M110 114h32"/></g>
+<g transform="translate(118 128) rotate(-30)"><circle r="16" fill="#eda100"/><circle r="6" fill="#fff"/><rect x="14" y="-5" width="40" height="10" rx="3" fill="#eda100"/><rect x="40" y="2" width="6" height="12" fill="#eda100"/><rect x="48" y="2" width="6" height="9" fill="#eda100"/></g></svg>
