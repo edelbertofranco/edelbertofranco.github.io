@@ -14,23 +14,32 @@
 <body>
 <header class="site"><div class="wrap">
 <a class="brand" href="index.html">Edelberto Franco Silva</a>
-<nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html" class="active">Publications</a></li><li><a href="team.html">Team</a></li><li><a href="teaching.html">Ensino</a></li><li><a href="temas.html">Temas de orientação</a></li></ul></nav>
+<nav aria-label="Main"><ul><li><a href="index.html" class="">Home</a></li><li><a href="research.html" class="">Research</a></li><li><a href="publications.html" class="active ">Publications</a></li><li><a href="team.html" class="">Team</a></li><li><a href="pq.html" class="pq">Indicadores PQ</a></li><li><a href="teaching.html" class="">Ensino</a></li><li><a href="temas.html" class="">Temas</a></li></ul></nav>
 </div></header>
 <main class="wrap">
 
 <div class="page-title"><h1>Publications</h1>
-<p class="muted">Selected recent work. The complete and up-to-date list is available on
-<a href="https://scholar.google.com/citations?user=StW3AKUAAAAJ">Google Scholar</a>,
-<a href="https://dblp.org/pid/241/2605.html">DBLP</a> and
-<a href="https://lattes.cnpq.br/3987091765361506">Lattes</a>.</p></div>
+<p class="muted">Full papers registered in the Lattes CV (duplicates removed). Underlined dotted names are supervised students.
+Profiles: <a href="https://scholar.google.com/citations?user=StW3AKUAAAAJ">Google Scholar</a> ·
+<a href="https://dblp.org/pid/241/2605.html">DBLP</a> · <a href="https://lattes.cnpq.br/3987091765361506">Lattes</a>.</p></div>
 <section>
-<ul class="clean"><li class="pub"><span class="title">Inter-xApp Policy Conflicts in the O-RAN Near-RT RIC: Threat Modeling, Attack Characterization, and Lightweight Conflict-Aware Mitigation</span><br><span class="small"><strong>E. F. Silva</strong>. <span class="venue">IEEE Access</span>, 2026. <a href="https://doi.org/10.1109/ACCESS.2026.3733594">doi:10.1109/ACCESS.2026.3733594</a></span></li><li class="pub"><span class="title">A New k-Anonymity Method Based on Generalization First k-Member Clustering for Healthcare Data</span><br><span class="small">K. K. Coelho, M. M. Okuyama, M. Nogueira, A. B. Vieira, <strong>E. F. Silva</strong>, J. A. M. Nacif. <span class="venue">IEEE Transactions on Dependable and Secure Computing</span>, 2026. <a href="https://doi.org/10.1109/TDSC.2025.3615541">doi:10.1109/TDSC.2025.3615541</a></span></li><li class="pub"><span class="title">A Hybrid LSTM-Based Approach to Mitigate Ping-Pong Handovers in Open RAN</span><br><span class="small">L. L. C. Freitas, <strong>E. F. Silva</strong>, A. B. Vieira, Á. A. M. de Medeiros. <span class="venue">IEEE Symposium on Computers and Communications (ISCC)</span>, 2026. <a href="https://doi.org/10.1109/ISCC70364.2026.11740039">doi:10.1109/ISCC70364.2026.11740039</a></span></li><li class="pub"><span class="title">Machine Learning for Mirai Attack Detection in 5G-Enabled IoT Networks</span><br><span class="small">M. Zancanella, <strong>E. F. Silva</strong>, R. M. Peixoto, M. Stenner, A. B. Vieira. <span class="venue">Wireless Days Conference (WD)</span>, 2025. <a href="https://doi.org/10.1109/WD67713.2025.11302620">doi:10.1109/WD67713.2025.11302620</a></span></li><li class="pub"><span class="title">Identity Management for Internet of Things: Concepts, Challenges and Opportunities</span><br><span class="small">B. Cremonezi, A. B. Vieira, J. Nacif, <strong>E. F. Silva</strong>, M. Nogueira. <span class="venue">Computer Communications</span>, 2024. <a href="https://doi.org/10.1016/j.comcom.2024.05.014">doi:10.1016/j.comcom.2024.05.014</a></span></li><li class="pub"><span class="title">A NWDAF Study Employing Machine Learning Models on a Simulated 5G Network Dataset</span><br><span class="small">L. A. de Oliveira, <strong>E. F. Silva</strong>, M. A. R. Dantas. <span class="venue">IEEE Symposium on Computers and Communications (ISCC)</span>, 2024. <a href="https://doi.org/10.1109/ISCC61673.2024.10733717">doi:10.1109/ISCC61673.2024.10733717</a></span></li><li class="pub"><span class="title">Security Analysis of Digitized Substations: A Systematic Review of GOOSE Messages</span><br><span class="small">P. Silveira, <strong>E. F. Silva</strong>, A. Galletta, Y. Lopes. <span class="venue">Internet of Things</span>, 2023. <a href="https://doi.org/10.1016/j.iot.2023.100760">doi:10.1016/j.iot.2023.100760</a></span></li></ul>
+<div class="controls">
+<label class="small muted" for="period">Period</label>
+<select id="period" class="chip">
+<option value="2021-2026">Last 5 years (2021–2026)</option>
+<option value="2016-2026">Last 10 years (2016–2026)</option>
+<option value="2006-2026" selected>All (2006–2026)</option>
+</select>
+</div>
+<div class="controls" role="group" aria-label="Type"><button class="chip" data-type-chip="all" aria-pressed="false">All<span class="n"></span></button><button class="chip" data-type-chip="J" aria-pressed="false">Journals<span class="n"></span></button><button class="chip" data-type-chip="CI" aria-pressed="false">International conferences<span class="n"></span></button><button class="chip" data-type-chip="CN" aria-pressed="false">National conferences<span class="n"></span></button><button class="chip" data-type-chip="B" aria-pressed="false">Chapters<span class="n"></span></button></div>
+<div id="publist"></div>
 </section>
 
 </main>
 <footer><div class="wrap">
 <span>Edelberto Franco Silva · DCC/UFJF · edelberto.franco [at] ufjf.br</span>
-<span>Updated November 2026</span>
+<span>Updated November 2026 from the Lattes CV</span>
 </div></footer>
+<script src="pubs.js"></script><script src="site.js"></script>
 </body>
 </html>
