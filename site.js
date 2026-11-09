@@ -50,7 +50,8 @@
     for (const p of list) {
       if (p.y !== year) { if (year !== null) html += '</ul>'; year = p.y; html += `<h3 class="year-h">${year}</h3><ul class="clean">`; }
       const doi = p.doi ? ` <a href="https://doi.org/${esc(p.doi)}">doi</a>` : '';
-      const badges = (p.award ? `<span class="badge award">${esc(p.award)}</span>` : '') +
+      const aw = p.award ? (typeof p.award === 'string' ? p.award : p.award[lang]) : '';
+      const badges = (aw ? `<span class="badge award">${esc(aw)}</span>` : '') +
         (p.st && p.st.length ? `<span class="badge" title="${lang === 'pt' ? 'Coautoria com orientando(s)' : 'Co-authored with supervised student(s)'}">${lang === 'pt' ? 'orientando' : 'student'}</span>` : '') +
         (p.single ? `<span class="badge">${lang === 'pt' ? 'autor único' : 'sole author'}</span>` : p.first ? `<span class="badge">${lang === 'pt' ? '1º autor' : 'first author'}</span>` : '');
       html += `<li class="pub"><span class="dot ${p.t}" title="${TYPES[p.t][lang]}"></span><span class="title">${esc(p.title)}</span>${badges}<br>` +
@@ -107,14 +108,30 @@
   document.addEventListener('DOMContentLoaded', () => {
     const sel = $('#period');
     if (sel) {
-      try { const saved = localStorage.getItem('period'); if (saved && [...sel.options].some(o => o.value === saved)) sel.value = saved; } catch (e) {}
-      const set = () => { const [f, t] = sel.value.split('-').map(Number); state.from = f; state.to = t; try { localStorage.setItem('period', sel.value); } catch (e) {} applyPeriod(); };
+      const key = 'period:' + location.pathname.split('/').pop();
+      try { const saved = localStorage.getItem(key); if (saved && [...sel.options].some(o => o.value === saved)) sel.value = saved; } catch (e) {}
+      const set = () => { const [f, t] = sel.value.split('-').map(Number); state.from = f; state.to = t; try { localStorage.setItem(key, sel.value); } catch (e) {} applyPeriod(); };
       sel.addEventListener('change', set); set();
     } else {
       const d = document.body.dataset; state.from = +(d.from || 1900); state.to = +(d.to || NOW); applyPeriod();
     }
     $$('[data-type-chip]').forEach(c => c.addEventListener('click', () => { state.type = c.dataset.typeChip; renderPubs(); }));
     renderCiteChart();
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { renderPubChart(); renderCiteChart(); });
+    const rerender = () => { renderPubChart(); renderCiteChart(); };
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    mq.addEventListener('change', rerender);
+    // tema: alterna entre claro e escuro; se coincidir com o do sistema, volta a seguir o sistema
+    const tb = $('.theme-switch');
+    if (tb) tb.addEventListener('click', () => {
+      const root = document.documentElement;
+      const cur = root.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
+      const next = cur === 'dark' ? 'light' : 'dark';
+      if (next === (mq.matches ? 'dark' : 'light')) { root.removeAttribute('data-theme'); try { localStorage.removeItem('theme'); } catch (e) {} }
+      else { root.setAttribute('data-theme', next); try { localStorage.setItem('theme', next); } catch (e) {} }
+      rerender();
+    });
+    // idioma: guarda a escolha explicita
+    const ls = $('.lang-switch');
+    if (ls) ls.addEventListener('click', () => { try { localStorage.setItem('lang', ls.dataset.lang); } catch (e) {} });
   });
 })();
