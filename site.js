@@ -120,18 +120,6 @@
     const rerender = () => { renderPubChart(); renderCiteChart(); };
     const mq = window.matchMedia('(prefers-color-scheme: dark)');
     mq.addEventListener('change', rerender);
-    // tema: alterna entre claro e escuro; se coincidir com o do sistema, volta a seguir o sistema
-    const tb = $('.theme-switch');
-    if (tb) tb.addEventListener('click', () => {
-      const root = document.documentElement;
-      const cur = root.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
-      const next = cur === 'dark' ? 'light' : 'dark';
-      if (next === (mq.matches ? 'dark' : 'light')) { root.removeAttribute('data-theme'); try { localStorage.removeItem('theme'); } catch (e) {} }
-      else { root.setAttribute('data-theme', next); try { localStorage.setItem('theme', next); } catch (e) {} }
-      rerender();
-    });
-    // idioma: guarda a escolha explicita
-    const ls = $('.lang-switch');
-    if (ls) ls.addEventListener('click', () => { try { localStorage.setItem('lang', ls.dataset.lang); } catch (e) {} });
+    window.addEventListener('themechange', rerender);
   });
 })();

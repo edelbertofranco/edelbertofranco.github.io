@@ -156,6 +156,8 @@ header.site nav{margin-left:auto}
 .tool{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:34px;padding:0 9px;border:1px solid var(--line);
   border-radius:8px;background:var(--bg);color:var(--text);font:inherit;font-size:.85rem;font-weight:700;cursor:pointer;letter-spacing:.03em}
 .tool:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+.lang-switch{padding:0 6px}
+.flag{display:block;border-radius:3px;box-shadow:0 0 0 1px var(--line)}
 .theme-switch .i-sun{display:none}
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .theme-switch .i-sun{display:block} :root:not([data-theme="light"]) .theme-switch .i-moon{display:none} }
 :root[data-theme="dark"] .theme-switch .i-sun{display:block}
