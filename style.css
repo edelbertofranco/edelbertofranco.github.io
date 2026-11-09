@@ -61,8 +61,18 @@ ul.clean{list-style:none;padding:0;margin:0}
 ul.clean > li{padding:9px 0;border-bottom:1px solid var(--line)}
 ul.clean > li:last-child{border-bottom:0}
 
-.news li{display:grid;grid-template-columns:90px 1fr;gap:12px}
-.news .date{color:var(--muted);font-variant-numeric:tabular-nums}
+.news li{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:start;padding:12px 0}
+.news li > div{display:flex;flex-direction:column;gap:2px}
+.news .date{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.85rem;font-weight:600}
+.news-thumb{width:120px;height:120px;border-radius:10px;object-fit:cover;border:1px solid var(--line);background:var(--surface);display:block}
+.news-thumb.blank{background:var(--accent-soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237fa8e0' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 4h12l4 4v12H4z'/%3E%3Cpath d='M8 10h8M8 14h8M8 18h5'/%3E%3C/svg%3E") center/40px no-repeat}
+/* research big lines */
+.biglines{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.bigline{display:flex;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.bigline img{width:88px;height:88px;border-radius:50%;flex:none}
+.bigline h3{margin:0 0 6px;font-size:1.1rem}
+.bigline p{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.tags.small li{font-size:.82rem;padding:3px 9px;background:var(--bg)}
 
 .pub .title{font-weight:600}
 .pub .venue{font-style:italic}
@@ -135,7 +145,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   .hero{grid-template-columns:1fr;gap:18px;padding-top:28px}
   .photo,.photo-fallback{width:120px;height:120px;font-size:2rem}
   .grid2,.areas{grid-template-columns:1fr}
-  .news li,.timeline li{grid-template-columns:1fr;gap:2px}
+  .timeline li{grid-template-columns:1fr;gap:2px}
+  .news li{grid-template-columns:72px 1fr;gap:12px} .news-thumb{width:72px;height:72px}
+  .biglines{grid-template-columns:1fr} .bigline{flex-direction:column}
   h1{font-size:1.6rem}
   .period-bar{top:0;position:static}
 }
