@@ -1,12 +1,23 @@
 {
  "msc_done": [
   {
+   "name": "Samira Barroso",
+   "title": "Análise de Ataques de Inversão de Prompt em Sistemas de Inferência Colaborativa de Modelos de Linguagem",
+   "year": 2026,
+   "award": "",
+   "funding": "CAPES",
+   "next": null
+  },
+  {
    "name": "Michael Vitor Zancanella Barboza",
    "title": "Aprendizado de Máquina para Detecção de Ataques Mirai em Redes IoT 5G",
    "year": 2026,
    "award": "",
    "funding": "CAPES",
-   "next": null
+   "next": {
+    "en": "IT UFJF",
+    "pt": "TI UFJF"
+   }
   },
   {
    "name": "Rodrigo Mendes Peixoto",
@@ -14,7 +25,10 @@
    "year": 2026,
    "award": "",
    "funding": "CAPES",
-   "next": null
+   "next": {
+    "en": "IT IFRJ",
+    "pt": "TI IFRJ"
+   }
   },
   {
    "name": "Luciano Fernandes da Rocha",
@@ -22,7 +36,10 @@
    "year": 2025,
    "award": "",
    "funding": "",
-   "next": null
+   "next": {
+    "en": "RNP",
+    "pt": "RNP"
+   }
   },
   {
    "name": "Leonardo Azalim de Oliveira",
@@ -57,7 +74,10 @@
    "year": 2021,
    "award": "",
    "funding": "",
-   "next": null
+   "next": {
+    "en": "MPF",
+    "pt": "MPF"
+   }
   },
   {
    "name": "Lucas Martins Figueiredo",
@@ -118,7 +138,10 @@
    "name": "Wiliam Rocha dos Santos",
    "title": "Estudo, Proposta e Avaliação de Superfícies Refletoras Inteligentes em Redes 6G",
    "year": 2026,
-   "next": null
+   "next": {
+    "en": "Nokia",
+    "pt": "Nokia"
+   }
   },
   {
    "name": "Giovanni Almeida Dutra",
@@ -142,7 +165,10 @@
    "name": "Osiel do Couto Rosa",
    "title": "Avaliação de Bases de Dados Técnicas com Modelos de Linguagem de Grande Escala: um estudo aplicado ao Wi-Fi 7",
    "year": 2025,
-   "next": null
+   "next": {
+    "en": "Thomson Reuters",
+    "pt": "Thomson Reuters"
+   }
   },
   {
    "name": "Daniel Rezende Varoto",
@@ -163,7 +189,10 @@
    "name": "Antônio Marcos Souza Pereira",
    "title": "Segurança e Privacidade em Redes Wi-Fi Públicas",
    "year": 2024,
-   "next": null
+   "next": {
+    "en": "Bayer",
+    "pt": "Bayer"
+   }
   },
   {
    "name": "Vinicius Castro Sampaio",
@@ -184,7 +213,10 @@
    "name": "Ana Beatriz Kapps dos Reis",
    "title": "Classificação de expressões faciais, gênero e engajamento em videochamadas",
    "year": 2023,
-   "next": null
+   "next": {
+    "en": "CAEd",
+    "pt": "CAEd"
+   }
   },
   {
    "name": "Victor Guerra",
