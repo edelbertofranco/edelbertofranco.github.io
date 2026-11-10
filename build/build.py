@@ -25,7 +25,8 @@ PROFILE, NEWS, LINES = load('profile'), load('news'), load('lines')
 PUBS, HIGHLIGHTS = load('publications'), load('highlights')
 SUP, BOARDS, PROJECTS = load('supervision'), load('boards'), load('projects')
 RECOG, CONTRIB, METRICS = load('recognition'), load('contributions'), load('metrics')
-TEACH, TOPICS = load('teaching'), load('topics')
+TEACH, TOPICS, MAP = load('teaching'), load('topics'), load('map')
+PROJ_BY_TITLE = {x['title']: x for x in PROJECTS}
 PUB_BY_ID = {p['id']: p for p in PUBS}
 SCH = METRICS['scholar']
 
@@ -402,6 +403,34 @@ def build(L):
          desc=t("Publications, supervision and recognition of Edelberto Franco Silva organized by the CNPq CA-CC criteria.",
                 "Indicadores de produção, formação de recursos humanos e reconhecimento de Edelberto Franco Silva organizados segundo os critérios do CA-CC do CNPq."))
 
+
+    # ---------------------------------------------------------- MAPA (temas x evidencias)
+    PTYPE = {'J': t('Journal', 'Periódico'), 'CI': t('Intl. conf.', 'Conf. internacional'), 'CN': t('Natl. conf.', 'Conf. nacional'), 'B': t('Chapter', 'Capítulo')}
+    def ev_pub(pid):
+        p = PUB_BY_ID.get(pid)
+        if not p:
+            return ''
+        ttl = E(p['title'])
+        if p.get('doi'):
+            ttl = f'<a href="https://doi.org/{E(p["doi"])}">{ttl}</a>'
+        return f'<li><span class="ev pub">{PTYPE.get(p["type"], p["type"])} {p["year"]}</span> {ttl} <span class="muted">({E(p["venue"])})</span></li>'
+    def ev_proj(title):
+        x = PROJ_BY_TITLE.get(title)
+        if not x:
+            return ''
+        yr = f'{x["start"]}–{x["end"]}' if x.get('end') else f'{x["start"]}–{t("ongoing", "atual")}'
+        fd = f' <span class="muted">({E(x["funder"])})</span>' if x.get('funder') else ''
+        return f'<li><span class="ev proj">{t("Project", "Projeto")} {yr}</span> {E(x["title"])}{fd}</li>'
+    def map_topic(tp):
+        ev = ''.join(ev_pub(i) for i in tp.get('pubs', [])) + ''.join(ev_proj(p) for p in tp.get('projects', []))
+        return f'<li class="map-topic"><strong>{E(b(tp["name"]))}</strong><ul class="evid small">{ev}</ul></li>'
+    map_html = ''.join(
+        f'<div class="card map-group"><div class="tema-head"><img src="{R}images/{E(g["image"])}" alt="" width="64" height="64"><h3>{E(b(g["title"]))}</h3></div>'
+        + ''.join(f'<h4 class="map-row">{E(b(r["label"]))}</h4><ul class="clean map-list">{"".join(map_topic(tp) for tp in r["topics"])}</ul>' for r in g['rows'])
+        + '</div>' for g in MAP['groups'])
+    map_section = (f'<section id="mapa"><h2>{t("Research map", "Mapa de pesquisa")} ({E(MAP["period"])})</h2>'
+                   f'<p class="muted">{E(b(MAP["intro"]))} {t("Updated", "Atualizado em")} {E(MAP["updated"])}.</p><div class="grid2">{map_html}</div></section>')
+
     # ---------------------------------------------------------- RESEARCH
     research = f"""
 <div class="page-title"><h1>{t("Research", "Pesquisa")}</h1><p class="muted">{t('Research areas, projects, awards and professional service. A version organized by CNPq criteria is in <a href="pq.html">CNPq PQ</a>.', 'Linhas de pesquisa, projetos, prêmios e atuação profissional. Uma versão organizada pelos critérios do CNPq está em <a href="pq.html">Indicadores PQ</a>.')}</p></div>
@@ -490,7 +519,8 @@ def build(L):
 <p>{t('These are topics of interest with a well-defined direction, in the broad areas of Computer Networks and Cybersecurity. Other topics in these lines can be discussed. If a topic interests you, <a href="mailto:edelberto.franco@ufjf.br">get in touch</a>.',
       'Esta lista reúne temas de interesse com encaminhamento bem definido, nas grandes áreas de Redes de Computadores e Cibersegurança. Outros temas nessas linhas podem ser discutidos. Se algum tema despertou seu interesse, <a href="mailto:edelberto.franco@ufjf.br">entre em contato</a>.')}</p>
 </section>
-<section><div class="grid2">{groups}</div></section>
+{map_section}
+<section><h2>{t("Other topics of interest", "Outros temas de interesse")}</h2><div class="grid2">{groups}</div></section>
 <section>
 <h2>{t("Research lines these topics fit into", "Linhas em que os temas se encaixam")}</h2>
 <div class="areas">{''.join(f'<div class="area"><img src="{R}images/{E(a["image"])}" alt="" width="96" height="96"><h3>{E(b(a["title"]))}</h3></div>' for a in LINES['areas'])}</div>
