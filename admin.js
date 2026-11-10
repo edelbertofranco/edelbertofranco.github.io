@@ -392,7 +392,13 @@
       }
       refreshDirty(); toast('Salvo. O GitHub está publicando o site (1 a 2 minutos).');
       watchDeploy();
-    } catch (e) { status('Erro ao salvar', 'err'); toast('Erro ao salvar: ' + e.message, 8000); refreshDirty(); }
+    } catch (e) {
+      status('Erro ao salvar', 'err');
+      const msg = e.status === 403
+        ? 'O token não pode gravar no repositório. Crie um token com "Resource owner" = edelbertofranco, acesso ao repositório edelbertofranco.github.io e "Contents: Read and write". Depois clique em Sair e entre com o novo token.'
+        : 'Erro ao salvar: ' + e.message;
+      toast(msg, 15000); refreshDirty();
+    }
   }
 
   async function start() {
