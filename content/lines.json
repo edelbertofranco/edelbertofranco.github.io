@@ -1,0 +1,138 @@
+{
+ "big": [
+  {
+   "image": "network.svg",
+   "title": {
+    "en": "Computer Networks",
+    "pt": "Redes de Computadores"
+   },
+   "text": {
+    "en": "5G/6G networks and the 5G Core, O-RAN (xApps and rApps), Wi-Fi sensing and indoor localization, IoT and LoRa, with machine learning applied to network management.",
+    "pt": "Redes 5G/6G e o Core 5G, O-RAN (xApps e rApps), sensoriamento e localização por Wi-Fi, IoT e LoRa, com aprendizado de máquina aplicado à gerência de redes."
+   },
+   "tags": [
+    {
+     "en": "5G/6G",
+     "pt": "5G/6G"
+    },
+    {
+     "en": "O-RAN",
+     "pt": "O-RAN"
+    },
+    {
+     "en": "Wi-Fi FTM/CSI",
+     "pt": "Wi-Fi FTM/CSI"
+    },
+    {
+     "en": "IoT/LoRa",
+     "pt": "IoT/LoRa"
+    },
+    {
+     "en": "AI for networks",
+     "pt": "IA para redes"
+    }
+   ]
+  },
+  {
+   "image": "security.svg",
+   "title": {
+    "en": "Cybersecurity",
+    "pt": "Cibersegurança"
+   },
+   "text": {
+    "en": "Zero Trust and continuous authentication, intrusion detection, identity and access management (eduroam, federated identity, non-human identities) and privacy-preserving machine learning.",
+    "pt": "Zero Trust e autenticação contínua, detecção de intrusão, gestão de identidade e acesso (eduroam, identidade federada, identidades não humanas) e aprendizado de máquina com preservação de privacidade."
+   },
+   "tags": [
+    {
+     "en": "Zero Trust",
+     "pt": "Zero Trust"
+    },
+    {
+     "en": "Intrusion detection",
+     "pt": "Detecção de intrusão"
+    },
+    {
+     "en": "Identity (IAM)",
+     "pt": "Identidade (IAM)"
+    },
+    {
+     "en": "Privacy",
+     "pt": "Privacidade"
+    },
+    {
+     "en": "O-RAN security",
+     "pt": "Segurança em O-RAN"
+    }
+   ]
+  }
+ ],
+ "areas": [
+  {
+   "image": "oran.svg",
+   "title": {
+    "en": "5G/6G and O-RAN",
+    "pt": "5G/6G e O-RAN"
+   },
+   "text": {
+    "en": "Security of disaggregated radio access networks: xApp threats, policy conflicts in the Near-RT RIC, predictive handover and the 5G Core.",
+    "pt": "Segurança de redes de acesso desagregadas: ameaças em xApps, conflitos de políticas no Near-RT RIC, handover preditivo e o Core 5G."
+   }
+  },
+  {
+   "image": "security.svg",
+   "title": {
+    "en": "Network security and Zero Trust",
+    "pt": "Segurança de redes e Zero Trust"
+   },
+   "text": {
+    "en": "Intrusion detection, continuous and context-aware authentication, biometrics and Zero Trust architectures for 5G, e-health and agentic AI.",
+    "pt": "Detecção de intrusão, autenticação contínua e sensível ao contexto, biometria e arquiteturas Zero Trust para 5G, e-health e IA agêntica."
+   }
+  },
+  {
+   "image": "ai.svg",
+   "title": {
+    "en": "AI applied to networks",
+    "pt": "IA aplicada a redes"
+   },
+   "text": {
+    "en": "Machine learning for traffic characterization, attack detection (e.g. Mirai, DoS), NWDAF analytics and resource management.",
+    "pt": "Aprendizado de máquina para caracterização de tráfego, detecção de ataques (por exemplo, Mirai e DoS), análises com NWDAF e gerência de recursos."
+   }
+  },
+  {
+   "image": "identity.svg",
+   "title": {
+    "en": "Identity and access management",
+    "pt": "Gestão de identidade e acesso"
+   },
+   "text": {
+    "en": "Federated identity (eduroam, CAFe), attribute-based access control, IoT identity and non-human identities for AI agents.",
+    "pt": "Identidade federada (eduroam, CAFe), controle de acesso baseado em atributos, identidade em IoT e identidades não humanas para agentes de IA."
+   }
+  },
+  {
+   "image": "wifi.svg",
+   "title": {
+    "en": "Wi-Fi sensing and localization",
+    "pt": "Sensoriamento e localização Wi-Fi"
+   },
+   "text": {
+    "en": "Indoor localization with IEEE 802.11 FTM and Channel State Information (CSI), and Wi-Fi quality monitoring.",
+    "pt": "Localização indoor com IEEE 802.11 FTM e Channel State Information (CSI), e monitoramento da qualidade de redes Wi-Fi."
+   }
+  },
+  {
+   "image": "iot.svg",
+   "title": {
+    "en": "IoT and privacy",
+    "pt": "IoT e privacidade"
+   },
+   "text": {
+    "en": "LoRa/LoRaWAN adaptation and key generation, privacy-preserving machine learning and anonymization of health data.",
+    "pt": "Adaptação e geração de chaves em LoRa/LoRaWAN, aprendizado de máquina com preservação de privacidade e anonimização de dados de saúde."
+   }
+  }
+ ]
+}

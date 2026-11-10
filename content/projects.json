@@ -1,0 +1,177 @@
+[
+ {
+  "start": 2026,
+  "end": null,
+  "title": "Avaliando a Segurança em xApps no Contexto de RANs Desagregadas",
+  "role": "Coordenador",
+  "funder": "UFJF (IC)"
+ },
+ {
+  "start": 2026,
+  "end": null,
+  "title": "PGID 2026: Identidade Não-Humana para Agentes de IA Autônomos",
+  "role": "Coordenador",
+  "funder": "RNP"
+ },
+ {
+  "start": 2026,
+  "end": null,
+  "title": "ORAN-SIM: Gêmeo Digital para Análise de Desempenho e Otimização Orientada por IA em Instalações Open RAN Multi-Tenant",
+  "role": "Pesquisador",
+  "funder": ""
+ },
+ {
+  "start": 2025,
+  "end": null,
+  "title": "GT-MyAccessID (desenvolvimento tecnológico)",
+  "role": "Coordenador",
+  "funder": "RNP"
+ },
+ {
+  "start": 2025,
+  "end": null,
+  "title": "PPMLNet: Aprendizado de Máquina com Preservação de Privacidade Assistido por Redes Programáveis",
+  "role": "Coordenador",
+  "funder": ""
+ },
+ {
+  "start": 2023,
+  "end": null,
+  "title": "CNPq PQ: Segurança em Redes 6G: Investigando os Desafios e Oportunidades no OpenRAN e Redes non-3GPP",
+  "role": "Coordenador",
+  "funder": "CNPq"
+ },
+ {
+  "start": 2023,
+  "end": null,
+  "title": "5G e eduroam na RNP",
+  "role": "Coordenador",
+  "funder": "RNP"
+ },
+ {
+  "start": 2025,
+  "end": 2026,
+  "title": "Segurança em Redes Desagregadas 5G/6G",
+  "role": "Coordenador",
+  "funder": "UFJF (IC)"
+ },
+ {
+  "start": 2024,
+  "end": 2025,
+  "title": "Segurança em Redes 6G: Desafios e Oportunidades no OpenRAN e Redes non-3GPP",
+  "role": "Coordenador",
+  "funder": "UFJF (IC)"
+ },
+ {
+  "start": 2024,
+  "end": 2024,
+  "title": "CT-GID: Integração de Gestão de Identidade com Inteligência Artificial e Aprendizado de Máquina",
+  "role": "Pesquisador",
+  "funder": "RNP"
+ },
+ {
+  "start": 2023,
+  "end": 2023,
+  "title": "PGID 2023: Estudo e Avaliação de Métodos de Autenticação EAP na Infraestrutura 5G",
+  "role": "Coordenador",
+  "funder": "RNP"
+ },
+ {
+  "start": 2023,
+  "end": 2023,
+  "title": "Avaliação do OpenRAN, Fatiamento de Redes com SDN e Autenticação e Autorização no 6G",
+  "role": "Coordenador",
+  "funder": "FAPEMIG (IC)"
+ },
+ {
+  "start": 2022,
+  "end": 2022,
+  "title": "Superfícies Refletoras Inteligentes e OpenRAN em Redes 6G",
+  "role": "Coordenador",
+  "funder": "UFJF (IC)"
+ },
+ {
+  "start": 2021,
+  "end": 2026,
+  "title": "Técnicas de Inteligência Computacional para a Produção e Divulgação de Estatísticas Oficiais",
+  "role": "Pesquisador",
+  "funder": ""
+ },
+ {
+  "start": 2021,
+  "end": 2021,
+  "title": "Gerenciamento de Identidades em Névoa Computacional para Aplicações Sensíveis a Atraso",
+  "role": "Coordenador",
+  "funder": "UFJF (IC)"
+ },
+ {
+  "start": 2020,
+  "end": 2026,
+  "title": "OPTimistic: um Framework Meta-Hiper-Heurístico",
+  "role": "Pesquisador",
+  "funder": ""
+ },
+ {
+  "start": 2019,
+  "end": 2023,
+  "title": "MEGACHAIN: Blockchain para Integração, Privacidade e Auditoria de Sistemas de Megacidades",
+  "role": "Pesquisador",
+  "funder": "FAPESP/MCTIC/CGI.br"
+ },
+ {
+  "start": 2018,
+  "end": 2023,
+  "title": "eduroam: Pesquisa e Evolução do Serviço de Autenticação e Autorização Federada",
+  "role": "Coordenador",
+  "funder": "RNP"
+ },
+ {
+  "start": 2018,
+  "end": 2024,
+  "title": "Demanda Universal FAPEMIG",
+  "role": "Pesquisador",
+  "funder": "FAPEMIG"
+ },
+ {
+  "start": 2018,
+  "end": 2022,
+  "title": "Sensores para a Internet das Coisas no Campus Inteligente da UFJF",
+  "role": "Coordenador",
+  "funder": "UFJF"
+ },
+ {
+  "start": 2018,
+  "end": 2019,
+  "title": "Software Defined Networking para Ambientes Industriais",
+  "role": "Pesquisador",
+  "funder": "PTI/LASSE Itaipu"
+ },
+ {
+  "start": 2018,
+  "end": 2019,
+  "title": "Microsoft AI",
+  "role": "Pesquisador",
+  "funder": "Microsoft"
+ },
+ {
+  "start": 2017,
+  "end": 2019,
+  "title": "SmartUFJF: Transformando o Campus da UFJF em um Ambiente Inteligente",
+  "role": "Coordenador",
+  "funder": "UFJF"
+ },
+ {
+  "start": 2017,
+  "end": 2018,
+  "title": "IAM no projeto CICN: Gestão de Identidade para o Centro de Inovação em Computação em Nuvem",
+  "role": "Coordenador",
+  "funder": "FINEP"
+ },
+ {
+  "start": 2017,
+  "end": 2017,
+  "title": "eduroamv3: Avaliação e Evolução do Serviço eduroam",
+  "role": "Coordenador",
+  "funder": "RNP"
+ }
+]

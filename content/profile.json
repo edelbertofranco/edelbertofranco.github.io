@@ -1,0 +1,76 @@
+{
+ "name": "Edelberto Franco Silva, PhD",
+ "photo": "images/photo.jpg",
+ "role": {
+  "en": "Associate Professor · Department of Computer Science (DCC)<br>Federal University of Juiz de Fora (UFJF), Brazil",
+  "pt": "Professor Associado · Departamento de Ciência da Computação (DCC)<br>Universidade Federal de Juiz de Fora (UFJF)"
+ },
+ "email": "edelberto.franco@ufjf.br",
+ "links": [
+  {
+   "label": "Lattes",
+   "url": "https://lattes.cnpq.br/3987091765361506"
+  },
+  {
+   "label": "Google Scholar",
+   "url": "https://scholar.google.com/citations?user=StW3AKUAAAAJ"
+  },
+  {
+   "label": "ORCID",
+   "url": "https://orcid.org/0000-0002-0058-9260"
+  },
+  {
+   "label": "DBLP",
+   "url": "https://dblp.org/pid/241/2605.html"
+  },
+  {
+   "label": "LinkedIn",
+   "url": "https://www.linkedin.com/in/edelberto-franco-silva-5b2259240/"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/edeunix"
+  },
+  {
+   "label": "E-mail",
+   "url": "mailto:edelberto.franco@ufjf.br"
+  }
+ ],
+ "about": {
+  "en": "<p>I am an Associate Professor in the Department of Computer Science (DCC) at the Federal University of Juiz de Fora (UFJF) and a permanent faculty member of the Graduate Program in Computer Science (<a href=\"https://www2.ufjf.br/pgcc/\">PPGCC</a>), where I serve as vice-coordinator. I hold a CNPq Research Productivity Fellowship (PQ-2) and serve as a Technical Editor of <em>IEEE Network</em>. I received my M.Sc. (2011) and D.Sc. (2016) in Computer Science from Universidade Federal Fluminense (UFF).</p>\n<p>I lead research at the <a href=\"http://netlab.ice.ufjf.br/index.php/eduroamia/\">UFJF NetLab</a>, with emphasis on computer networks and cybersecurity. My work has been funded by RNP, FINEP, FAPERJ, FAPEMIG, FAPESP, CNPq, PTI and TBE. I am a member of IEEE and SBC, and an elected member of the steering committee of the SBC Special Commission on Information Security (CESeg).</p>",
+  "pt": "<p>Sou Professor Associado do Departamento de Ciência da Computação (DCC) da Universidade Federal de Juiz de Fora (UFJF) e docente permanente do Programa de Pós-Graduação em Ciência da Computação (<a href=\"https://www2.ufjf.br/pgcc/\">PPGCC</a>), do qual sou vice-coordenador. Sou Bolsista de Produtividade em Pesquisa do CNPq (PQ-2) e Technical Editor da <em>IEEE Network</em>. Obtive os títulos de mestre (2011) e doutor (2016) em Computação pela Universidade Federal Fluminense (UFF).</p>\n<p>Coordeno pesquisas no <a href=\"http://netlab.ice.ufjf.br/index.php/eduroamia/\">NetLab/UFJF</a>, com ênfase em redes de computadores e cibersegurança. Meus trabalhos tiveram financiamento de RNP, FINEP, FAPERJ, FAPEMIG, FAPESP, CNPq, PTI e TBE. Sou membro da IEEE e da SBC, e membro eleito do comitê gestor da Comissão Especial em Segurança da Informação e de Sistemas Computacionais (CESeg) da SBC.</p>"
+ },
+ "prospective": {
+  "en": "I supervise undergraduate (TCC, scientific initiation) and graduate (M.Sc.) students in computer networks and cybersecurity. See the list of <a href=\"temas.html\">suggested topics</a> and feel free to <a href=\"mailto:edelberto.franco@ufjf.br\">contact me</a>.",
+  "pt": "Oriento alunos de graduação (TCC e iniciação científica) e de mestrado em redes de computadores e cibersegurança. Veja a lista de <a href=\"temas.html\">temas sugeridos</a> e <a href=\"mailto:edelberto.franco@ufjf.br\">entre em contato</a>."
+ },
+ "selected": [
+  "p1",
+  "p2",
+  "p6",
+  "p5",
+  "p50"
+ ],
+ "collaborations": {
+  "international": {
+   "en": "<strong>Università degli Studi di Messina</strong> (Italy): Antonino Galletta, Lorenzo Carnevale, Massimo Villari.<br><strong>Sheffield Hallam University</strong> (UK): Márjory Da Costa-Abreu.<br><strong>University of York</strong> (UK): Richard Hawkins, Tim Kelly.",
+   "pt": "<strong>Università degli Studi di Messina</strong> (Itália): Antonino Galletta, Lorenzo Carnevale, Massimo Villari.<br><strong>Sheffield Hallam University</strong> (Reino Unido): Márjory Da Costa-Abreu.<br><strong>University of York</strong> (Reino Unido): Richard Hawkins, Tim Kelly."
+  },
+  "national": {
+   "en": "<strong>UFF</strong>: Célio V. N. de Albuquerque, Débora Muchaluat-Saade, Natalia C. Fernandes, Diogo Menezes, Yona Lopes, Gustavo Semaan. <strong>UFRJ</strong>: Miguel Elias M. Campista, José Ferreira de Rezende. <strong>UFMG</strong>: Michele Nogueira. <strong>UFV</strong>: José Augusto M. Nacif. <strong>UFPA</strong>: Denis Rosário, Eduardo Cerqueira. <strong>UFRRJ</strong>: Bruno Dembogurski. <strong>UFJF</strong>: Alex Borges Vieira, André L. de Oliveira, Álvaro A. M. de Medeiros.",
+   "pt": "<strong>UFF</strong>: Célio V. N. de Albuquerque, Débora Muchaluat-Saade, Natalia C. Fernandes, Diogo Menezes, Yona Lopes, Gustavo Semaan. <strong>UFRJ</strong>: Miguel Elias M. Campista, José Ferreira de Rezende. <strong>UFMG</strong>: Michele Nogueira. <strong>UFV</strong>: José Augusto M. Nacif. <strong>UFPA</strong>: Denis Rosário, Eduardo Cerqueira. <strong>UFRRJ</strong>: Bruno Dembogurski. <strong>UFJF</strong>: Alex Borges Vieira, André L. de Oliveira, Álvaro A. M. de Medeiros."
+  },
+  "summary": {
+   "en": "<strong>International:</strong> Università degli Studi di Messina (Italy), Sheffield Hallam University (UK), University of York (UK).<br><strong>National:</strong> UFF, UFRJ, UFMG, UFV, UFPA, UFRRJ and RNP.",
+   "pt": "<strong>Internacionais:</strong> Università degli Studi di Messina (Itália), Sheffield Hallam University (Reino Unido), University of York (Reino Unido).<br><strong>Nacionais:</strong> UFF, UFRJ, UFMG, UFV, UFPA, UFRRJ e RNP."
+  }
+ },
+ "software": {
+  "en": "A. B. Vieira, <strong>E. F. Silva</strong>, R. Modesto, L. R. Frank. <em>SADI: Sistema de Análise de Dados em Tempo Real para Serviços de Gestão de Identidade</em>. INPI BR512021000479-5, 2021.",
+  "pt": "A. B. Vieira, <strong>E. F. Silva</strong>, R. Modesto, L. R. Frank. <em>SADI: Sistema de Análise de Dados em Tempo Real para Serviços de Gestão de Identidade</em>. INPI BR512021000479-5, 2021."
+ },
+ "updated": {
+  "en": "November 2026",
+  "pt": "novembro de 2026"
+ }
+}

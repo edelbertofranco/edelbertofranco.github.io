@@ -1,0 +1,112 @@
+{
+ "items": [
+  {
+   "level": "D",
+   "year": 2026,
+   "name": "Wagner de Almeida Júnior",
+   "title": "Beyond Node-Centric Graph Learning: Advancing Edge-Aware GNNs for Enhanced Representation Learning",
+   "institution": "UFV"
+  },
+  {
+   "level": "D",
+   "year": 2025,
+   "name": "Kristtopher Kayo Coelho",
+   "title": "Anonimização Baseada em k-Anonimato para Garantir a Privacidade de Dados em Internet das Coisas Aplicada na Saúde",
+   "institution": "UFV"
+  },
+  {
+   "level": "M",
+   "year": 2026,
+   "name": "Lucas Ismael Campos Medeiros",
+   "title": "Gerenciamento de Tráfego em Redes Open RAN com Multi-Conectividade utilizando Aprendizado de Máquina",
+   "institution": "UFRN"
+  },
+  {
+   "level": "M",
+   "year": 2026,
+   "name": "Eduardo Torres Tristão",
+   "title": "Aprendizado Federado Descentralizado para Reconhecimento Biométrico de EEG e PPG Resiliente a Ataques de Sequestro",
+   "institution": "UFMG"
+  },
+  {
+   "level": "M",
+   "year": 2025,
+   "name": "Pedro da Silveira Santana Pinheiro da Silva",
+   "title": "Enhancing Cybersecurity in IEC 61850-based Substations: A Systematic Review and a Lightweight SCADA-Based Detection Framework",
+   "institution": "UFF"
+  },
+  {
+   "level": "M",
+   "year": 2023,
+   "name": "Lucas Rodrigues Frank",
+   "title": "Aprendizado de Máquina Aplicado à Gerência de Redes Sem Fio",
+   "institution": "UFJF"
+  },
+  {
+   "level": "M",
+   "year": 2022,
+   "name": "Guilherme Nunes Nasseh Barbosa",
+   "title": "Desafios de Segurança e Predição de Tráfego em Centro de Dados e Redes de Próxima Geração",
+   "institution": "UFF"
+  },
+  {
+   "level": "M",
+   "year": 2022,
+   "name": "João Paulo Sales Henriques Lima",
+   "title": "Aplicações de Handover Inteligente em Redes Celulares Baseadas em Aprendizado de Máquina",
+   "institution": "UFJF (PPEE)"
+  },
+  {
+   "level": "M",
+   "year": 2022,
+   "name": "Alex Medeiros de Araujo",
+   "title": "Um Sistema Autônomo para a Detecção Contínua de Botnets",
+   "institution": "UFPR"
+  },
+  {
+   "level": "M",
+   "year": 2021,
+   "name": "Airton Ribeiro de Moura Gomes Filho",
+   "title": "Cache de Atributos Oportunista: melhorando a eficiência do ABAC em névoas computacionais",
+   "institution": "UFJF"
+  },
+  {
+   "level": "M",
+   "year": 2021,
+   "name": "Genilson Israel da Silva",
+   "title": "Priorização de Alertas Médicos em Redes Sem Fio Definida por Software: uma Perspectiva Experimental",
+   "institution": "UFJF"
+  },
+  {
+   "level": "M",
+   "year": 2019,
+   "name": "Yelco Antonio Marante Cañizales",
+   "title": "Consumo Energético de Animais em Pastagem Baseado em um Modelo de Mobilidade Híbrido para Redes de Sensores Sem Fio",
+   "institution": "UFJF"
+  },
+  {
+   "level": "M",
+   "year": 2017,
+   "name": "Thiago Moratori Peixoto",
+   "title": "Aumentando a Resiliência em SDN quando o Plano de Controle se Encontra sob Ataque",
+   "institution": "UFJF"
+  },
+  {
+   "level": "Q",
+   "year": 2021,
+   "name": "Alex Medeiros de Araújo",
+   "title": "Um Sistema Autônomo para a Detecção Contínua de Botnets (qualificação)",
+   "institution": "UFPR"
+  }
+ ],
+ "tcc_by_year": {
+  "2023": 5,
+  "2022": 4,
+  "2021": 2,
+  "2019": 3,
+  "2018": 7,
+  "2017": 1,
+  "2015": 4,
+  "2014": 2
+ }
+}

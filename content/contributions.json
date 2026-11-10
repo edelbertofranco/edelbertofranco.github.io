@@ -1,0 +1,74 @@
+[
+ {
+  "start": 2021,
+  "end": 2021,
+  "category": {
+   "en": "Registered",
+   "pt": "Registro"
+  },
+  "text": {
+   "en": "Software registered at INPI: SADI, a real-time data analysis system for identity management services (BR512021000479-5), funded by RNP/UFJF",
+   "pt": "Software registrado no INPI: SADI, Sistema de Análise de Dados em Tempo Real para Serviços de Gestão de Identidade (BR512021000479-5), com financiamento RNP/UFJF"
+  }
+ },
+ {
+  "start": 2025,
+  "end": 2026,
+  "category": {
+   "en": "National service",
+   "pt": "Serviço nacional"
+  },
+  "text": {
+   "en": "eduroam app and the edmon tool for monitoring Wi-Fi quality in eduroam, developed with RNP",
+   "pt": "Aplicativo eduroam e ferramenta edmon para monitoramento da qualidade das redes Wi-Fi do eduroam, desenvolvidos com a RNP"
+  }
+ },
+ {
+  "start": 2023,
+  "end": null,
+  "category": {
+   "en": "National service",
+   "pt": "Serviço nacional"
+  },
+  "text": {
+   "en": "Integration of 5G and eduroam for the Brazilian academic community (RNP)",
+   "pt": "Integração de 5G e eduroam para a comunidade acadêmica brasileira (RNP)"
+  }
+ },
+ {
+  "start": 2019,
+  "end": 2020,
+  "category": {
+   "en": "Software",
+   "pt": "Software"
+  },
+  "text": {
+   "en": "BI4eduroam, BI4CAFe, BI4ICPedu and Marker eduroam: dashboards and tools used in the operation of RNP federated services",
+   "pt": "BI4eduroam, BI4CAFe, BI4ICPedu e Marker eduroam: painéis e ferramentas usados na operação dos serviços federados da RNP"
+  }
+ },
+ {
+  "start": 2019,
+  "end": 2019,
+  "category": {
+   "en": "Software",
+   "pt": "Software"
+  },
+  "text": {
+   "en": "LoRa network planning tool (LoRaPlan)",
+   "pt": "Ferramenta de planejamento de redes LoRa (LoRaPlan)"
+  }
+ },
+ {
+  "start": 2015,
+  "end": null,
+  "category": {
+   "en": "Policy",
+   "pt": "Políticas"
+  },
+  "text": {
+   "en": "Technical recommendations for federated identity management at RNP (CT-GID)",
+   "pt": "Recomendações técnicas para a gestão de identidade federada na RNP (CT-GID)"
+  }
+ }
+]

@@ -1,0 +1,58 @@
+[
+ {
+  "date": "2026",
+  "image": "bolsa-ic.jpg",
+  "text": {
+   "en": "Results of the UFJF undergraduate research scholarship selection (BIC/PIBIC 2026/2027) are available <a href=\"https://drive.google.com/file/d/1KiBHRPnwt4pt_Kpit_53IE6f_ohQCsIo/view\">here</a> (in Portuguese).",
+   "pt": "Resultado do processo de seleção para bolsistas de iniciação científica BIC e PIBIC/UFJF (2026/2027) disponível <a href=\"https://drive.google.com/file/d/1KiBHRPnwt4pt_Kpit_53IE6f_ohQCsIo/view\">aqui</a>."
+  }
+ },
+ {
+  "date": "2026",
+  "image": "ppgcc-ufjf.jpg",
+  "text": {
+   "en": "Two M.Sc. dissertations defended at PPGCC/UFJF: Michael Zancanella (Mirai attack detection in 5G IoT networks) and Rodrigo Mendes Peixoto (digital twin for energy management in smart classrooms).",
+   "pt": "Duas dissertações de mestrado defendidas no PPGCC/UFJF: Michael Zancanella (detecção de ataques Mirai em redes IoT 5G) e Rodrigo Mendes Peixoto (gêmeo digital para gestão de energia em salas de aula inteligentes)."
+  }
+ },
+ {
+  "date": "2026",
+  "image": "access-2026.jpg",
+  "text": {
+   "en": "Paper on inter-xApp policy conflicts in the O-RAN Near-RT RIC, related to my CNPq PQ project, published in <em>IEEE Access</em> (<a href=\"https://doi.org/10.1109/ACCESS.2026.3733594\">doi</a>).",
+   "pt": "Artigo sobre conflitos de políticas entre xApps no Near-RT RIC do O-RAN, ligado ao projeto PQ do CNPq, publicado na <em>IEEE Access</em> (<a href=\"https://doi.org/10.1109/ACCESS.2026.3733594\">doi</a>)."
+  }
+ },
+ {
+  "date": "2026",
+  "image": "sbseg-2026.jpg",
+  "text": {
+   "en": "Program Committee Chair of <a href=\"https://www.sbseg2026.uff.br/\">SBSeg 2026</a>, with Cíntia Borges Margi (USP).",
+   "pt": "Coordenador geral do Comitê de Programa do <a href=\"https://www.sbseg2026.uff.br/\">SBSeg 2026</a>, com Cíntia Borges Margi (USP)."
+  }
+ },
+ {
+  "date": "2026",
+  "image": "iscc-2026.jpg",
+  "text": {
+   "en": "Four papers at IEEE ISCC 2026 on Open RAN handover, 5G Core architectures and multimodal biometric authentication.",
+   "pt": "Quatro artigos no IEEE ISCC 2026 sobre handover em Open RAN, arquiteturas do Core 5G e autenticação biométrica multimodal."
+  }
+ },
+ {
+  "date": "2025",
+  "image": "tdsc-2026.jpg",
+  "text": {
+   "en": "Paper on k-anonymity for healthcare data accepted in <em>IEEE Transactions on Dependable and Secure Computing</em> (<a href=\"https://doi.org/10.1109/TDSC.2025.3615541\">doi</a>), with UFV and UFMG.",
+   "pt": "Artigo sobre k-anonimato para dados de saúde aceito na <em>IEEE Transactions on Dependable and Secure Computing</em> (<a href=\"https://doi.org/10.1109/TDSC.2025.3615541\">doi</a>), com UFV e UFMG."
+  }
+ },
+ {
+  "date": "2023–",
+  "image": "5g-eduroam.jpg",
+  "text": {
+   "en": "Researcher with RNP investigating the integration of 5G networks and eduroam.",
+   "pt": "Pesquisador com a RNP na integração entre redes 5G e o eduroam."
+  }
+ }
+]

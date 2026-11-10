@@ -1,0 +1,261 @@
+{
+ "current": {
+  "title": {
+   "en": "2026.2 · DCC075 · Segurança em Sistemas Computacionais (Cybersecurity)",
+   "pt": "2026.2 · DCC075 · Segurança em Sistemas Computacionais (Cibersegurança)"
+  },
+  "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/2026-2-dcc075-seguran%C3%A7a",
+  "schedule": {
+   "en": "<strong>Classes:</strong> Mondays 9–11 pm and Wednesdays 7–9 pm, Laboratory 4 (Lab4).<br><strong>Office hours:</strong> Tuesdays 4 pm (by e-mail appointment).",
+   "pt": "<strong>Aulas:</strong> segundas, 21h–23h, e quartas, 19h–21h, no Laboratório 4 (Lab4).<br><strong>Atendimento:</strong> terças, 16h (agendamento por e-mail)."
+  },
+  "syllabus": {
+   "en": "Principles of cryptography (symmetric and asymmetric), block and stream ciphers, pseudorandom number generation, hash functions, attacks and countermeasures in computer networks.",
+   "pt": "Princípios de criptografia (simétrica e assimétrica), cifras de bloco e de fluxo, geração de números pseudoaleatórios, funções de hash, ataques e contramedidas em redes de computadores."
+  }
+ },
+ "undergraduate": [
+  {
+   "term": "2026.1",
+   "code": "DCC042",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2026-1-dcc042-redes-de-computadores"
+  },
+  {
+   "term": "2025.3",
+   "code": "DCC042",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2025-3-dcc042-redes-de-computadores"
+  },
+  {
+   "term": "2025.1",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2025-1-dcc075-seguran%C3%A7a"
+  },
+  {
+   "term": "2024.3",
+   "code": "DCC042",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2024-3-dcc042-redes-de-computadores"
+  },
+  {
+   "term": "2024.3",
+   "code": "DCC072",
+   "name": "Laboratório de Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2024-3-dcc072-laborat%C3%B3rio-de-redes-de-computadores"
+  },
+  {
+   "term": "2024.1",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2024-1-dcc075-seguran%C3%A7a"
+  },
+  {
+   "term": "2023.3",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2023-3-dcc075-seguran%C3%A7a"
+  },
+  {
+   "term": "2023.3",
+   "code": "DCC130",
+   "name": "Computação Móvel, Ubíqua e Pervasiva",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2023-3-dcc130-computa%C3%A7%C3%A3o-m%C3%B3vel-ub%C3%ADqua-e-pervasiva"
+  },
+  {
+   "term": "2023.1",
+   "code": "DCC042",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2023-1-dcc042-redes-de-computadores"
+  },
+  {
+   "term": "2022.3",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2022-3-dcc075-seguran%C3%A7a"
+  },
+  {
+   "term": "2022.1",
+   "code": "DCC042",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2022-1-dcc042-redes-de-computadores"
+  },
+  {
+   "term": "2021.3",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2021-3-dcc075-seguran%C3%A7a-ere"
+  },
+  {
+   "term": "2021.3",
+   "code": "DCC179",
+   "name": "Laboratório de Ciência da Computação (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2021-3-dcc179-lab-de-ci%C3%AAncia-da-computa%C3%A7%C3%A3o-ere"
+  },
+  {
+   "term": "2021.1",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2021-1-dcc075-seguran%C3%A7a-ere"
+  },
+  {
+   "term": "2021.1",
+   "code": "DCC130",
+   "name": "Computação Móvel, Ubíqua e Pervasiva (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2021-1-dcc130-computa%C3%A7%C3%A3o-m%C3%B3vel-ub%C3%ADqua-e-pervasiva-ere"
+  },
+  {
+   "term": "2020.3",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2020-3-dcc075-seguran%C3%A7a-ere"
+  },
+  {
+   "term": "2020.1",
+   "code": "DCC042",
+   "name": "Redes de Computadores (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2020-1-dcc042-redes-de-computadores-ere"
+  },
+  {
+   "term": "2020.1",
+   "code": "DCC042",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2020-1-dcc042-redes-de-computadores"
+  },
+  {
+   "term": "2020.1",
+   "code": "DCC102",
+   "name": "Seminários VI: Análise de Dados em Redes de Grande Porte (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2020-1-dcc102-semin%C3%A1rios-vi-an%C3%A1lise-de-dados-em-redes-de-computadores-de-grande-porte-ere"
+  },
+  {
+   "term": "2019.3",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2019-3-dcc075-seguran%C3%A7a"
+  },
+  {
+   "term": "2019.1",
+   "code": "DCC042",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2019-1-dcc042-redes-de-computadores"
+  },
+  {
+   "term": "2019.1",
+   "code": "DCC091",
+   "name": "Internet das Coisas (IoT)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2019-1-dcc091-iot"
+  },
+  {
+   "term": "2018.3",
+   "code": "DCC075",
+   "name": "Segurança em Sistemas Computacionais",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2018-3-dcc075-seguran%C3%A7a"
+  },
+  {
+   "term": "2018.3",
+   "code": "DCC102",
+   "name": "Seminários (IoT)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2018-3-dcc102-semin%C3%A1rios-iot"
+  },
+  {
+   "term": "2018.3",
+   "code": "DCC179",
+   "name": "Laboratório de Ciência da Computação",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2018-3-dcc179-lab-de-ci%C3%AAncia-da-computa%C3%A7%C3%A3o"
+  },
+  {
+   "term": "2018.1",
+   "code": "DCC091",
+   "name": "Internet das Coisas (IoT)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2018-1-dcc091-iot"
+  },
+  {
+   "term": "2017.3",
+   "code": "DCC179",
+   "name": "Laboratório de Ciência da Computação",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2017-3-dcc179-lab-de-ci%C3%AAncia-da-computa%C3%A7%C3%A3o"
+  },
+  {
+   "term": "2017.1",
+   "code": "DCC071",
+   "name": "Laboratório de Sistemas Operacionais",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/gradua%C3%A7%C3%A3o/anteriores/2017-1-dcc071-lab-de-sistemas-operacionais"
+  }
+ ],
+ "graduate": [
+  {
+   "term": "2024.3",
+   "code": "2035016",
+   "name": "Redes Sem Fio",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2024-3-2035016-redes-sem-fio"
+  },
+  {
+   "term": "2024.1",
+   "code": "2035015",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2024-1-2035015-redes-de-computadores"
+  },
+  {
+   "term": "2023.3",
+   "code": "2035016",
+   "name": "Redes Sem Fio",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2023-3-2035016-redes-sem-fio"
+  },
+  {
+   "term": "2023.2",
+   "code": "2035015",
+   "name": "Redes de Computadores (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2023-2-2035015-redes-de-computadores-ere"
+  },
+  {
+   "term": "2022.2",
+   "code": "2035015",
+   "name": "Redes de Computadores (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2022-2-2035015-redes-de-computadores-ere"
+  },
+  {
+   "term": "2021.3",
+   "code": "2035016",
+   "name": "Redes Sem Fio (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2021-3-2035016-redes-sem-fio-ere"
+  },
+  {
+   "term": "2021.2",
+   "code": "2035015",
+   "name": "Redes de Computadores (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2021-2-2035015-redes-de-computadores-ere"
+  },
+  {
+   "term": "2020.3",
+   "code": "2035016",
+   "name": "Redes Sem Fio (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2020-3-2035016-redes-sem-fio-ere"
+  },
+  {
+   "term": "2020.2",
+   "code": "2035015",
+   "name": "Redes de Computadores (ERE)",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2020-2-2035015-redes-de-computadores-ere"
+  },
+  {
+   "term": "2019.3",
+   "code": "2035016",
+   "name": "Redes Sem Fio",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2019-3-2035016-redes-sem-fio"
+  },
+  {
+   "term": "2019.2",
+   "code": "2035015",
+   "name": "Redes de Computadores",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2019-2-2035015-redes-de-computadores"
+  },
+  {
+   "term": "2018.2",
+   "code": "2035016",
+   "name": "Redes Sem Fio",
+   "url": "https://sites.google.com/view/edelbertofranco/disciplinas/p%C3%B3s-gradua%C3%A7%C3%A3o/anteriores/2018-2-2035016-redes-sem-fio"
+  }
+ ]
+}

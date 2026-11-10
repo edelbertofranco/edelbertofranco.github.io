@@ -1,0 +1,59 @@
+{
+ "updated": "05/10/2026",
+ "groups": [
+  {
+   "image": "security.svg",
+   "title": {
+    "en": "Cybersecurity",
+    "pt": "Cibersegurança"
+   },
+   "items": [
+    {
+     "en": "<strong>6G:</strong> AI/ML applied to 6G security",
+     "pt": "<strong>6G:</strong> IA/ML aplicado à segurança do 6G"
+    },
+    {
+     "en": "<strong>5G:</strong> 5G security with NWDAF (Network Data Analytics Function)",
+     "pt": "<strong>5G:</strong> segurança em 5G com NWDAF (Network Data Analytics Function)"
+    },
+    {
+     "en": "<strong>Zero Trust</strong> (<a href=\"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf\">NIST SP 800-207</a>): continuous and context-aware authentication, e.g. in 5G, e-health and agentic AI systems",
+     "pt": "<strong>Zero Trust</strong> (<a href=\"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf\">NIST SP 800-207</a>): autenticação contínua e de contexto, por exemplo no 5G, em e-health e em sistemas de IA agêntica"
+    },
+    {
+     "en": "Privacy in federated learning",
+     "pt": "Privacidade em aprendizado federado (Federated Learning)"
+    },
+    {
+     "en": "Intrusion detection systems and DPI (Deep Packet Inspection)",
+     "pt": "Sistemas de detecção de intrusão e DPI (Deep Packet Inspection)"
+    }
+   ]
+  },
+  {
+   "image": "network.svg",
+   "title": {
+    "en": "Computer Networks",
+    "pt": "Redes de Computadores"
+   },
+   "items": [
+    {
+     "en": "<strong>Application:</strong> applications for 5G/6G",
+     "pt": "<strong>Aplicação:</strong> aplicações para 5G/6G"
+    },
+    {
+     "en": "<strong>Link and physical:</strong> localization of people and objects via Wi-Fi (IEEE 802.11 FTM or CSI, Channel State Information)",
+     "pt": "<strong>Enlace e física:</strong> localização de pessoas e objetos por Wi-Fi (IEEE 802.11 FTM ou CSI, Channel State Information)"
+    },
+    {
+     "en": "<strong>5G/6G and O-RAN:</strong> resource orchestration in the 5G Core; AI-based xApps and rApps in O-RAN",
+     "pt": "<strong>5G/6G e O-RAN:</strong> orquestração de recursos no Core 5G; xApps e rApps com IA no O-RAN"
+    },
+    {
+     "en": "<strong>Other:</strong> XaaS (anything as a service)",
+     "pt": "<strong>Outros:</strong> XaaS (qualquer coisa como serviço)"
+    }
+   ]
+  }
+ ]
+}

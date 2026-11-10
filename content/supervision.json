@@ -1,0 +1,452 @@
+{
+ "msc_done": [
+  {
+   "name": "Michael Vitor Zancanella Barboza",
+   "title": "Aprendizado de Máquina para Detecção de Ataques Mirai em Redes IoT 5G",
+   "year": 2026,
+   "award": "",
+   "funding": "CAPES",
+   "next": null
+  },
+  {
+   "name": "Rodrigo Mendes Peixoto",
+   "title": "Gêmeo Digital Aplicado à Gestão de Energia em Laboratórios de Informática em Ambientes de Sala de Aula Inteligente",
+   "year": 2026,
+   "award": "",
+   "funding": "CAPES",
+   "next": null
+  },
+  {
+   "name": "Luciano Fernandes da Rocha",
+   "title": "O Impacto da Autenticação Mútua e Simultânea com Certificados X.509 no Âmbito do eduroam",
+   "year": 2025,
+   "award": "",
+   "funding": "",
+   "next": null
+  },
+  {
+   "name": "Leonardo Azalim de Oliveira",
+   "title": "Traffic Characterization for User Equipment Classification in the 5G Core",
+   "year": 2025,
+   "award": "",
+   "funding": "CAPES",
+   "next": null
+  },
+  {
+   "name": "Lucas Rodrigues Frank",
+   "title": "Aprendizado de Máquina Aplicado à Gerência de Redes Sem Fio",
+   "year": 2023,
+   "award": "",
+   "funding": "CAPES",
+   "next": {
+    "en": "RNP",
+    "pt": "RNP"
+   }
+  },
+  {
+   "name": "Alexandre Souza",
+   "title": "Intelligent Reflection Surface for 6G and Beyond",
+   "year": 2022,
+   "award": "",
+   "funding": "",
+   "next": null
+  },
+  {
+   "name": "Rodrigo Funchal Oliveira",
+   "title": "Cloud-gaming: análise de métricas de redes e predição de eventos",
+   "year": 2021,
+   "award": "",
+   "funding": "",
+   "next": null
+  },
+  {
+   "name": "Lucas Martins Figueiredo",
+   "title": "Cognitive-LoRa: adaptation-aware of the physical layer in LoRa-based networks",
+   "year": 2021,
+   "award": "",
+   "funding": "",
+   "next": null
+  },
+  {
+   "name": "Airton Ribeiro de Moura Gomes Filho",
+   "title": "Cache de Atributos Oportunista: melhorando a eficiência do ABAC com o uso de uma política de distribuição de identidades em redes multinível para névoas computacionais",
+   "year": 2020,
+   "award": "Melhor Dissertação, CTD/SBRC 2022",
+   "funding": "CAPES",
+   "next": {
+    "en": "D.Sc. student (UFV) and RNP",
+    "pt": "Doutorado (UFV) e RNP"
+   }
+  },
+  {
+   "name": "Frederico de Oliveira Sales",
+   "title": "MCAST-VLC: Um Protocolo Multicast Dinâmico para Redes de Comunicação por Luz Visível",
+   "year": 2019,
+   "award": "",
+   "funding": "",
+   "next": null
+  }
+ ],
+ "msc_ongoing": [
+  {
+   "name": "Lucas Lino do Carmo Freitas",
+   "since": 2025
+  },
+  {
+   "name": "Rodrigo Torres Rego",
+   "since": 2025
+  },
+  {
+   "name": "Marcos Stenner",
+   "since": 2025
+  }
+ ],
+ "tcc_done": [
+  {
+   "name": "Alfredo Lucas da Silva Neto",
+   "title": "Classificação de Fluxos de Rede Associados a Ataques DoS com Aprendizado de Máquina e Avaliação em Cenário Experimental",
+   "year": 2026,
+   "next": null
+  },
+  {
+   "name": "Giovane Machado Aguiar",
+   "title": "Estudo e Avaliação do Método de Criptografia Sem Fio Oportunista OWE",
+   "year": 2026,
+   "next": null
+  },
+  {
+   "name": "Wiliam Rocha dos Santos",
+   "title": "Estudo, Proposta e Avaliação de Superfícies Refletoras Inteligentes em Redes 6G",
+   "year": 2026,
+   "next": null
+  },
+  {
+   "name": "Giovanni Almeida Dutra",
+   "title": "Ameaças em Redes Wi-Fi Públicas: uma análise dos principais vetores de ataque cibernético",
+   "year": 2025,
+   "next": null
+  },
+  {
+   "name": "Mariana Siano Pinto",
+   "title": "Análise de Segurança Criptográfica no AMF do free5GC: Monitoramento e Detecção de Ataques de Repetição",
+   "year": 2025,
+   "next": null
+  },
+  {
+   "name": "Victor Duque Alves Pinto",
+   "title": "Aplicação da Arquitetura Zero-Trust para a Segurança de Recursos em Redes 5G",
+   "year": 2025,
+   "next": null
+  },
+  {
+   "name": "Osiel do Couto Rosa",
+   "title": "Avaliação de Bases de Dados Técnicas com Modelos de Linguagem de Grande Escala: um estudo aplicado ao Wi-Fi 7",
+   "year": 2025,
+   "next": null
+  },
+  {
+   "name": "Daniel Rezende Varoto",
+   "title": "Confinder: uma Solução para Busca Interativa e Extração de Informações sobre Eventos Científicos",
+   "year": 2025,
+   "next": {
+    "en": "InfinitePay",
+    "pt": "InfinitePay"
+   }
+  },
+  {
+   "name": "Lucca Oliveira Schroder",
+   "title": "Zero-Trust e Controle de Acesso Dinâmico Aplicados na Segurança de Arquivos",
+   "year": 2025,
+   "next": null
+  },
+  {
+   "name": "Antônio Marcos Souza Pereira",
+   "title": "Segurança e Privacidade em Redes Wi-Fi Públicas",
+   "year": 2024,
+   "next": null
+  },
+  {
+   "name": "Vinicius Castro Sampaio",
+   "title": "Sistema de Votação Eletrônica Auditável Utilizando Blockchain",
+   "year": 2024,
+   "next": null
+  },
+  {
+   "name": "Leonardo Azalim de Oliveira",
+   "title": "Arcabouços para Coleta de RSSI e Evolução de Técnicas de Acordo de Chaves em Redes LoRaWAN",
+   "year": 2023,
+   "next": {
+    "en": "M.Sc., PPGCC/UFJF",
+    "pt": "Mestrado PPGCC/UFJF (concluído)"
+   }
+  },
+  {
+   "name": "Ana Beatriz Kapps dos Reis",
+   "title": "Classificação de expressões faciais, gênero e engajamento em videochamadas",
+   "year": 2023,
+   "next": null
+  },
+  {
+   "name": "Victor Guerra",
+   "title": "Ética e Privacidade: um estudo sobre os problemas da coleta de dados pessoais nas redes sociais",
+   "year": 2023,
+   "next": null
+  },
+  {
+   "name": "Samira Barroso dos Santos",
+   "title": "Predição de Carga de Autenticações em um Serviço Global de Acesso Sem Fio para Dimensionamento de Recursos",
+   "year": 2023,
+   "next": null
+  },
+  {
+   "name": "Fernando Alfeld",
+   "title": "Proposta de um Método de Controle de Acesso Baseado em Atributo em Redes Dispositivo a Dispositivo",
+   "year": 2023,
+   "next": null
+  },
+  {
+   "name": "Pedro Cotta Badaró",
+   "title": "Scraping e Análise de Dados no Aperfeiçoamento do Processo Seletivo de Programadores",
+   "year": 2023,
+   "next": null
+  },
+  {
+   "name": "Lucas Lino do Carmo Freitas",
+   "title": "Zero Trust como Ferramenta de Segurança para Ambientes E-Health",
+   "year": 2023,
+   "next": {
+    "en": "M.Sc. student, PPGCC/UFJF",
+    "pt": "Mestrado PPGCC/UFJF (em andamento)"
+   }
+  },
+  {
+   "name": "Guilherme Fiorini Justen",
+   "title": "Avaliação do MPTCP",
+   "year": 2022,
+   "next": null
+  },
+  {
+   "name": "Rodrigo Torres Rego",
+   "title": "Ferramenta de Planejamento de Redes LoRaWAN",
+   "year": 2022,
+   "next": {
+    "en": "M.Sc. student, PPGCC/UFJF",
+    "pt": "Mestrado PPGCC/UFJF (em andamento)"
+   }
+  },
+  {
+   "name": "André Caetano Vidal",
+   "title": "Autenticação via Biometria Comportamental para Aplicativos Móveis",
+   "year": 2021,
+   "next": null
+  },
+  {
+   "name": "Osiel do Couto Rosa",
+   "title": "Avaliação da Segurança de Protocolos IoT Aplicados a Casas Inteligentes",
+   "year": 2021,
+   "next": null
+  },
+  {
+   "name": "Rafael Braga Dutra",
+   "title": "Estudo e Comparação dos Protocolos QUIC, CUBIC, M-TCP e Outras Variantes do TCP",
+   "year": 2021,
+   "next": null
+  },
+  {
+   "name": "João Victor Dutra Balboa",
+   "title": "oTeach: Sistema para Planejamento de Atividades de Docentes",
+   "year": 2021,
+   "next": null
+  },
+  {
+   "name": "Pedro Henrique Linhares Oliveira",
+   "title": "Sistema de Detecção de Intrusão e Técnicas de Inteligência Computacional para Redes de Computadores",
+   "year": 2021,
+   "next": {
+    "en": "SoftWrap",
+    "pt": "SoftWrap"
+   }
+  },
+  {
+   "name": "Lucas Martins Figueiredo",
+   "title": "Estudo e Análise de Redes LoRa",
+   "year": 2019,
+   "next": {
+    "en": "M.Sc., PPGCC/UFJF",
+    "pt": "Mestrado PPGCC/UFJF (concluído)"
+   }
+  },
+  {
+   "name": "Yan Mendes Ferreira",
+   "title": "Applying a Multilayer Perceptron for Traffic Flow Prediction to Empower a Smart Ecosystem",
+   "year": 2018,
+   "next": {
+    "en": "Founding Group Product Manager, Latitud",
+    "pt": "Founding Group Product Manager, Latitud"
+   }
+  },
+  {
+   "name": "Lucas Rodrigues Frank",
+   "title": "Estudo de Funções de Ativação em Redes Neurais para Previsão de Tráfego de Veículos",
+   "year": 2018,
+   "next": {
+    "en": "RNP",
+    "pt": "RNP"
+   }
+  },
+  {
+   "name": "Pedro Henrique Linhares Oliveira",
+   "title": "IoT Aplicado a Casas Inteligentes",
+   "year": 2018,
+   "next": {
+    "en": "SoftWrap",
+    "pt": "SoftWrap"
+   }
+  },
+  {
+   "name": "Daniel Rezende Varoto",
+   "title": "Mapa de Conferências para Busca Interativa e Extração de Informação",
+   "year": 2018,
+   "next": {
+    "en": "InfinitePay",
+    "pt": "InfinitePay"
+   }
+  },
+  {
+   "name": "Laura Gouvea",
+   "title": "Projeto de Rede All-IP para Redes de Televisão Digitais",
+   "year": 2018,
+   "next": null
+  }
+ ],
+ "tcc_ongoing": [
+  {
+   "name": "Thales Gomes Batista",
+   "title": "Análise de Desempenho e Proposta de Extensão do TCP CUBIC Inspirada no Algoritmo BBR"
+  },
+  {
+   "name": "Samuel de Souza Rodrigues",
+   "title": "Análise de Superfície de Ataque em Pipelines CI/CD com Agentes de IA Autônomos"
+  },
+  {
+   "name": "João Victor Nicácio Silva",
+   "title": "Detecção Adaptativa de Comportamentos Maliciosos em Open RAN com Aprendizado de Máquina e Zero Trust"
+  },
+  {
+   "name": "Felipe de Oliveira Souza",
+   "title": "Detecção de Intrusão através de Sinais de Wi-Fi"
+  },
+  {
+   "name": "Gustavo Dias",
+   "title": "Mitigação de Movimento Lateral entre Microsserviços por meio de uma Arquitetura Zero Trust"
+  },
+  {
+   "name": "Antônio Marcos da Silva Júnior",
+   "title": "Aplicando Inteligência Artificial Explicável na Detecção Granular de Intrusões em Redes IoT 5G"
+  },
+  {
+   "name": "Giovanni Almeida Dutra",
+   "title": "Autenticação Wi-Fi Baseada em Tokens Temporários usando WPA-Enterprise e FreeRADIUS"
+  }
+ ],
+ "ic_done": [
+  {
+   "name": "Maria Eduarda de Medeiros Simonassi",
+   "title": "Avaliação do OpenRAN, o Fatiamento de Redes com SDN e a Autenticação e Autorização no 6G",
+   "year": 2023,
+   "funding": "FAPEMIG"
+  },
+  {
+   "name": "Igor Almeida Guedes",
+   "title": "Avaliação do OpenRAN, o Fatiamento de Redes com SDN e a Autenticação e Autorização no 6G",
+   "year": 2023,
+   "funding": "FAPEMIG"
+  },
+  {
+   "name": "Wiliam Rocha dos Santos",
+   "title": "Estudo, Proposta e Avaliação de Superfícies Refletoras Inteligentes e OpenRAN em Redes 6G",
+   "year": 2022,
+   "funding": ""
+  },
+  {
+   "name": "Antônio Marcos Souza Pereira",
+   "title": "Estudo, Proposta e Avaliação de Superfícies Refletoras Inteligentes e OpenRAN em Redes 6G",
+   "year": 2022,
+   "funding": ""
+  },
+  {
+   "name": "Ivanylson Honório Gonçalves",
+   "title": "Iniciação científica",
+   "year": 2022,
+   "funding": ""
+  },
+  {
+   "name": "João Victor Dutra Balboa",
+   "title": "Análise de Modelos de Previsão para Caracterização de Mobilidade de Usuários em Redes Sem Fio",
+   "year": 2021,
+   "funding": ""
+  },
+  {
+   "name": "Ana Beatriz Kapps dos Reis",
+   "title": "Gerenciamento de Identidades em Névoa Computacional para Aplicações Sensíveis a Atraso",
+   "year": 2021,
+   "funding": ""
+  },
+  {
+   "name": "Samira Barroso dos Santos",
+   "title": "Pesquisa, Desenvolvimento e Inovação nos Serviços da Rede Nacional de Ensino e Pesquisa",
+   "year": 2020,
+   "funding": "RNP"
+  },
+  {
+   "name": "Ana Beatriz Kapps dos Reis",
+   "title": "Pesquisa, Desenvolvimento e Inovação nos Serviços da Rede Nacional de Ensino e Pesquisa",
+   "year": 2020,
+   "funding": "RNP"
+  },
+  {
+   "name": "Rodrigo Torres Rego",
+   "title": "Análise de Modelos de Previsão para Caracterização de Mobilidade do Usuário em Redes Sem Fio",
+   "year": 2019,
+   "funding": ""
+  },
+  {
+   "name": "Rodrigo Torres Rego",
+   "title": "eduroamv3: avaliação e evolução do serviço eduroam",
+   "year": 2018,
+   "funding": "FAPEMIG"
+  },
+  {
+   "name": "Lucas Rodrigues Frank",
+   "title": "SmartUFJF: transformando o campus da UFJF em um ambiente inteligente",
+   "year": 2018,
+   "funding": ""
+  },
+  {
+   "name": "Yan Mendes Ferreira",
+   "title": "SmartUFJF: transformando o campus da UFJF em um ambiente inteligente",
+   "year": 2017,
+   "funding": ""
+  }
+ ],
+ "ic_ongoing": [
+  {
+   "name": "Antônio Marcos da Silva Júnior",
+   "title": "Avaliando a Segurança em xApps no Contexto de RANs Desagregadas"
+  },
+  {
+   "name": "Mariana Siano Pinto",
+   "title": "Avaliando a Segurança em xApps no Contexto de RANs Desagregadas"
+  },
+  {
+   "name": "Pedro Henrique Silva de Albuquerque",
+   "title": "PGID 2026: Identidade Não-Humana para Agentes de IA Autônomos"
+  },
+  {
+   "name": "Leonan Levy Nascimento Louvem",
+   "title": "PGID 2026: Identidade Não-Humana para Agentes de IA Autônomos"
+  }
+ ],
+ "other_count": 17,
+ "professional_training": "Alexander Silva Barbosa; Ana Paula Ferreira Monteiro; Bruno Rocha Guedes; Christian Scoralich Alves; Denner Efisio Emanuel Reis; Emerson da Silva de Oliveira; Igor de Andrade Junqueira; João Paulo Costa Silva; Leonardo Azalim de Oliveira; Lucas Martins Figueiredo; Lucas Rodrigues Frank; Luiz Filipe Peres Moura Araujo; Melissa Santos Aguiar; Robert William da Silva; Ronaldo Modesto Ponciano; Victor Loureiro Silva"
+}

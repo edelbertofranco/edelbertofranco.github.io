@@ -1,0 +1,37 @@
+[
+ {
+  "pub": "p1",
+  "note": {
+   "en": "Sole-authored article on policy conflicts among xApps in the Near-RT RIC, a direct result of the PQ project.",
+   "pt": "Artigo de autoria única sobre conflitos de políticas entre xApps no Near-RT RIC, resultado direto do projeto PQ."
+  }
+ },
+ {
+  "pub": "p2",
+  "note": {
+   "en": "k-anonymity method for health data in a high-impact security journal (IEEE TDSC), in collaboration with UFMG and UFV.",
+   "pt": "Método de k-anonimato para dados de saúde em periódico de alto impacto em segurança (IEEE TDSC), em colaboração com UFMG e UFV."
+  }
+ },
+ {
+  "pub": "p6",
+  "note": {
+   "en": "Intelligent resource allocation in wireless networks, with an M.Sc. student and collaborators from Università di Messina (Italy).",
+   "pt": "Alocação inteligente de recursos em redes sem fio, com orientando de mestrado e colaboradores da Università di Messina (Itália)."
+  }
+ },
+ {
+  "pub": "p5",
+  "note": {
+   "en": "Survey on identity management for IoT in Computer Communications, co-authored with a doctoral student and national collaborators.",
+   "pt": "Survey sobre gestão de identidade para IoT em Computer Communications, com coautoria de doutorando e colaboradores nacionais."
+  }
+ },
+ {
+  "pub": "p50",
+  "note": {
+   "en": "Best Paper Award at SIoT 2024, with undergraduate and M.Sc. students.",
+   "pt": "Artigo premiado como Best Paper no SIoT 2024, com orientandos de graduação e mestrado."
+  }
+ }
+]
