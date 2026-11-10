@@ -101,6 +101,17 @@
         current: OBJ({ title: BI('Título'), url: T('Link da página da disciplina'), schedule: BIT('Horários (HTML)'), syllabus: BIT('Ementa') }, { label: 'Semestre atual' }),
         undergraduate: ARR(OBJ({ term: T('Semestre'), code: T('Código'), name: T('Disciplina'), url: T('Link') }, { rowKeys: ['term', 'code'] }), { label: 'Graduação (anteriores)', addAt: 'top', summary: x => [x.term + ' · ' + x.code, x.name], blank: () => ({ term: '', code: '', name: '', url: '' }) }),
         graduate: ARR(OBJ({ term: T('Semestre'), code: T('Código'), name: T('Disciplina'), url: T('Link') }, { rowKeys: ['term', 'code'] }), { label: 'Pós-graduação (anteriores)', addAt: 'top', summary: x => [x.term + ' · ' + x.code, x.name], blank: () => ({ term: '', code: '', name: '', url: '' }) }) }) },
+    { file: 'map', title: 'Mapa de pesquisa', help: 'Seção "Mapa de pesquisa" da página Temas: temas agrupados (camadas TCP/IP; ataque e defesa), cada um com as publicações e projetos que o sustentam. Projetos são ligados pelo título exato da seção Projetos.',
+      schema: OBJ({
+        updated: T('Atualizado em'), period: T('Período (ex.: 2025–2026)'), intro: BIT('Texto de abertura'),
+        groups: ARR(OBJ({ image: IMG('Ilustração', 'images'), title: BI('Título do grupo'),
+          rows: ARR(OBJ({ label: BI('Camada ou eixo'),
+            topics: ARR(OBJ({ name: BI('Tema'),
+              pubs: ARR({ type: 'pubref', label: 'Publicação' }, { label: 'Publicações', compact: true, blank: () => '' }),
+              projects: ARR({ type: 'projref', label: 'Projeto' }, { label: 'Projetos', compact: true, blank: () => '' }) }),
+              { label: 'Temas', summary: x => [x.name && x.name.pt, `${(x.pubs || []).length} pub. · ${(x.projects || []).length} proj.`], blank: () => ({ name: { en: '', pt: '' }, pubs: [], projects: [] }) }) }),
+            { label: 'Camadas / eixos', summary: x => [x.label && x.label.pt, `${(x.topics || []).length} temas`], blank: () => ({ label: { en: '', pt: '' }, topics: [] }) }) }),
+          { label: 'Grupos', summary: x => [x.title && x.title.pt], blank: () => ({ image: 'network.svg', title: { en: '', pt: '' }, rows: [] }) }) }) },
     { file: 'topics', title: 'Temas de orientação', help: 'Página Temas. Cada item aceita HTML simples.',
       schema: OBJ({
         updated: T('Atualizado em'),
@@ -248,6 +259,11 @@
         const up = el('button', { class: 'btn small', type: 'button', text: 'Enviar imagem…', onclick: () => fileIn.click() });
         upd();
         return field(schema.label, el('div', { class: 'imgf' }, thumb, inp, up, rm, fileIn), schema.dir === 'images/news' ? 'A imagem é reduzida para no máximo 900 px antes do envio.' : null);
+      }
+      case 'projref': {
+        const s = el('select', {}, el('option', { value: '', text: '(escolha)' }), (S.data.projects || []).slice().sort((a, b) => (b.start || 0) - (a.start || 0)).map(p => el('option', { value: p.title, text: `${p.start || ''} · ${p.title}`.slice(0, 140) })));
+        s.value = v || ''; s.addEventListener('change', () => { set(s.value); onChange(); ctx.onSummary && ctx.onSummary(); });
+        return field(schema.label, s);
       }
       case 'pubref': {
         const s = el('select', {}, el('option', { value: '', text: '(escolha)' }), PUBS().slice().sort((a, b) => b.year - a.year).map(p => el('option', { value: p.id, text: pubLabel(p).slice(0, 140) })));

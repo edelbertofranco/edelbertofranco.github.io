@@ -175,3 +175,12 @@ header.site nav{margin-left:auto}
 :root[data-theme="dark"] .theme-switch .i-sun{display:block}
 :root[data-theme="dark"] .theme-switch .i-moon{display:none}
 @media (max-width:720px){ header.site nav{margin-left:0;order:3;width:100%} .tools{margin-left:auto} }
+
+/* mapa de pesquisa */
+.map-group h4.map-row{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin:16px 0 6px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+.map-list > li.map-topic{margin:0 0 10px}
+.evid{list-style:none;padding:0;margin:4px 0 0}
+.evid li{margin:3px 0;line-height:1.4}
+.ev{display:inline-block;font-size:.7rem;font-weight:700;padding:0 7px;border-radius:999px;margin-right:4px;white-space:nowrap;vertical-align:1px}
+.ev.pub{background:var(--accent-soft);color:var(--accent)}
+.ev.proj{background:var(--award-bg);color:var(--award-fg)}
