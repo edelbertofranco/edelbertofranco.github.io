@@ -1,0 +1,256 @@
+{
+ "updated": "10/11/2026",
+ "period": "2025–2026",
+ "intro": {
+  "pt": "Temas com publicação ou projeto ativo no período. Redes estão organizadas pelas camadas TCP/IP; cibersegurança, em ataque e defesa. Alguns temas aparecem nos dois eixos.",
+  "en": "Topics with a publication or an active project in the period. Networking topics are organized by TCP/IP layer; cybersecurity topics by attack and defense. Some topics appear on both axes."
+ },
+ "groups": [
+  {
+   "image": "network.svg",
+   "title": {
+    "pt": "Redes de Computadores (camadas TCP/IP)",
+    "en": "Computer Networks (TCP/IP layers)"
+   },
+   "rows": [
+    {
+     "label": {
+      "pt": "Acesso à rede (física e enlace)",
+      "en": "Network access (physical and link)"
+     },
+     "topics": [
+      {
+       "name": {
+        "pt": "IAB terrestre, não terrestre e de baixa altitude",
+        "en": "IAB across terrestrial, non-terrestrial and low-altitude platforms"
+       },
+       "pubs": [
+        "p0"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "Localização Wi-Fi por FTM",
+        "en": "Wi-Fi FTM localization"
+       },
+       "pubs": [
+        "p31",
+        "p33"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "Camada física LoRa",
+        "en": "LoRa physical layer"
+       },
+       "pubs": [
+        "p32"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "EAP de usuários Wi-Fi Enterprise no 5G",
+        "en": "EAP for Wi-Fi Enterprise users in 5G"
+       },
+       "pubs": [
+        "p36"
+       ],
+       "projects": [
+        "5G e eduroam na RNP"
+       ]
+      }
+     ]
+    },
+    {
+     "label": {
+      "pt": "Internet (rede)",
+      "en": "Internet (network)"
+     },
+     "topics": [
+      {
+       "name": {
+        "pt": "Handover preditivo com LSTM no Open RAN",
+        "en": "LSTM-based predictive handover in Open RAN"
+       },
+       "pubs": [
+        "p24",
+        "p25"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "Arquitetura do 5G Core",
+        "en": "5G Core architecture"
+       },
+       "pubs": [
+        "p26"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "5G federado para a academia",
+        "en": "Federated 5G for academia"
+       },
+       "pubs": [
+        "p41"
+       ],
+       "projects": [
+        "5G e eduroam na RNP"
+       ]
+      },
+      {
+       "name": {
+        "pt": "Gêmeo digital no Open RAN",
+        "en": "Digital twin in Open RAN"
+       },
+       "pubs": [],
+       "projects": [
+        "ORAN-SIM: Gêmeo Digital para Análise de Desempenho e Otimização Orientada por IA em Instalações Open RAN Multi-Tenant"
+       ]
+      }
+     ]
+    },
+    {
+     "label": {
+      "pt": "Aplicação",
+      "en": "Application"
+     },
+     "topics": [
+      {
+       "name": {
+        "pt": "Monitoramento Wi-Fi no eduroam",
+        "en": "Wi-Fi monitoring in eduroam"
+       },
+       "pubs": [
+        "p28",
+        "p42"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "Identidade federada e Gestão de Identidade e Acesso (AAA)",
+        "en": "Federated identity and Identity and Access Management (AAA)"
+       },
+       "pubs": [],
+       "projects": [
+        "GT-MyAccessID (desenvolvimento tecnológico)"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "security.svg",
+   "title": {
+    "pt": "Cibersegurança (ataque e defesa)",
+    "en": "Cybersecurity (attack and defense)"
+   },
+   "rows": [
+    {
+     "label": {
+      "pt": "Ataque",
+      "en": "Attack"
+     },
+     "topics": [
+      {
+       "name": {
+        "pt": "Conflitos inter-xApp no Near-RT RIC",
+        "en": "Inter-xApp conflicts in the Near-RT RIC"
+       },
+       "pubs": [
+        "p1"
+       ],
+       "projects": [
+        "Avaliando a Segurança em xApps no Contexto de RANs Desagregadas",
+        "Segurança em Redes Desagregadas 5G/6G"
+       ]
+      },
+      {
+       "name": {
+        "pt": "Mirai em IoT sobre 5G",
+        "en": "Mirai in 5G-enabled IoT"
+       },
+       "pubs": [
+        "p37"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "Agentes de IA autônomos e identidade não humana",
+        "en": "Autonomous AI agents and non-human identity"
+       },
+       "pubs": [],
+       "projects": [
+        "PGID 2026: Identidade Não-Humana para Agentes de IA Autônomos"
+       ]
+      }
+     ]
+    },
+    {
+     "label": {
+      "pt": "Defesa",
+      "en": "Defense"
+     },
+     "topics": [
+      {
+       "name": {
+        "pt": "Zero Trust com biometria multimodal",
+        "en": "Zero Trust with multimodal biometrics"
+       },
+       "pubs": [
+        "p30",
+        "p29",
+        "p35"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "k-anonimato",
+        "en": "k-anonymity"
+       },
+       "pubs": [
+        "p2",
+        "p38",
+        "p39"
+       ],
+       "projects": []
+      },
+      {
+       "name": {
+        "pt": "ML com preservação de privacidade",
+        "en": "Privacy-preserving ML"
+       },
+       "pubs": [],
+       "projects": [
+        "PPMLNet: Aprendizado de Máquina com Preservação de Privacidade Assistido por Redes Programáveis"
+       ]
+      },
+      {
+       "name": {
+        "pt": "Segurança 6G, Open RAN e non-3GPP",
+        "en": "6G, Open RAN and non-3GPP security"
+       },
+       "pubs": [
+        "p36"
+       ],
+       "projects": [
+        "CNPq PQ: Segurança em Redes 6G: Investigando os Desafios e Oportunidades no OpenRAN e Redes non-3GPP",
+        "Segurança em Redes 6G: Desafios e Oportunidades no OpenRAN e Redes non-3GPP",
+        "Segurança em Redes Desagregadas 5G/6G"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
