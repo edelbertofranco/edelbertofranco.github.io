@@ -18,11 +18,11 @@
   "end": null,
   "title": "ORAN-SIM: Gêmeo Digital para Análise de Desempenho e Otimização Orientada por IA em Instalações Open RAN Multi-Tenant",
   "role": "Pesquisador",
-  "funder": ""
+  "funder": "CPqD"
  },
  {
   "start": 2025,
-  "end": null,
+  "end": 2026,
   "title": "GT-MyAccessID (desenvolvimento tecnológico)",
   "role": "Coordenador",
   "funder": "RNP"
@@ -31,8 +31,8 @@
   "start": 2025,
   "end": null,
   "title": "PPMLNet: Aprendizado de Máquina com Preservação de Privacidade Assistido por Redes Programáveis",
-  "role": "Coordenador",
-  "funder": ""
+  "role": "Pesquisador",
+  "funder": "CNPq"
  },
  {
   "start": 2023,
